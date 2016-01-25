@@ -1,3 +1,8 @@
-What happens when you initialize a repository? Why do you need to do it?
+1. What happens when you initialize a repository? Why do you need to do it?
+
 	Answer: It converts the current directory into a repository. It also creates a new .git file in it. 
 	
+2. How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Answer: The Staging area is a place where you can put the files that you want to commit to the repository. 
+			It may contain several files or just one, and is very helpfull because you are able to commit all changes
+			with just one commit.
