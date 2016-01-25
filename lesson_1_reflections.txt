@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Answer: It helps you to be more productive. If you don't use this kind of commands would be very hard to find bugs easily. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Answer: If any bug was introduced in the last check in, the history might be very helpful because the programmer can find easily the version that was working fine and revert changes. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Answer: Pros: You commit when part or the whole functionality is finished. You don't have the problem of commit too small or too big changes, just the exact amount. 
+			Cons: If you were nearly to finish the task, and the computer turned off by mistake, there is no way to recover the changes, because there is no automatic commit. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Answer: Because one single functionality might involved changes in multiple files. For example working on an .html file with a .css and a .js file at same time. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Answer: with command git log you will see all changes made since the beginning. Other option to check file history is with git diff and compare that commit id with the following. 
+	Also a third option might be use git log --stat and see how many insertions and deletions were made. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Answer: If you want to roll back changes in git sue command 'git checkout commitId'. Using this command you might feel more confident making changes. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Answer: I would like to try to access a repository and start sharing, coding and practice the commands learnt here.
