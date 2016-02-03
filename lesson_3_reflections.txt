@@ -11,3 +11,8 @@
 		clones: It's used to clone a repository from GitHub to you're local. Or from local to local
 		branches: Used locally to create a new version (branch) of your code/project
 		
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Answer: The benefit is that first, you don't override your local changes with a remote version.
+	You are able to merge the remote branch (origin/master) with your local branch (master) and 
+	check al solve conflicts manually. 
