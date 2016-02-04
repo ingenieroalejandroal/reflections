@@ -16,3 +16,9 @@
 	Answer: The benefit is that first, you don't override your local changes with a remote version.
 	You are able to merge the remote branch (origin/master) with your local branch (master) and 
 	check al solve conflicts manually. 
+	
+5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Answer: The hardest thing would be to resolve conflicts on files. Also work without Git or GitHub
+	would make harder to track the history if changes. Actually I don't see any advantage working without
+	Git or GitHub. 
